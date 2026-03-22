@@ -23,10 +23,10 @@ The system encountered a "Black Screen" issue during boot due to legacy graphics
 تم تعديل محمل الإقلاع (GRUB) وإضافة معامل `nomodeset` لضمان استقرار واجهة المستخدم.
 
 #### 2. User Management & Security | إدارة المستخدمين والأمان
-Transitioned from using the Root account to creating a dedicated user account to enhance security practices.
-تم الانتقال من استخدام حساب الجذر (Root) إلى إنشاء حساب مستخدم مخصص لتعزيز ممارسات الأمان.
+Transitioned from using the Root account to creating a dedicated **User** account to enhance security practices.
+تم الانتقال من استخدام حساب الجذر (Root) إلى إنشاء حساب مستخدم (**User**) مخصص لتعزيز ممارسات الأمان.
 
-* **Solution | الحل:** Created a new administrative user, granted `sudo` privileges, and configured a professional command-line interface.
+* **Solution | الحل:** Created a new administrative **User**, granted `sudo` privileges, and configured a professional command-line interface.
 إنشاء مستخدم إداري جديد ومنحه صلاحيات الإدارة `sudo` مع تهيئة واجهة الأوامر الاحترافية.
 
 #### 3. Hostname Resolution Fix | إصلاح تعريف المضيف
@@ -45,4 +45,5 @@ The device is now equipped for network analysis and practicing cybersecurity ski
 ---
 
 ### Author | صاحب المشروع
-**Network Engineer | مهندس شبكات**
+**Abdullah Alshammari | عبدالله الشمري**
+*Network Engineer | مهندس شبكات*
