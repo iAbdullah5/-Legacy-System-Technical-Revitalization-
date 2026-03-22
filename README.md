@@ -46,5 +46,4 @@ The device is now equipped for network analysis and practicing cybersecurity ski
 
 ### Author | صاحب المشروع
 **Abdullah Alshammari | عبدالله الشمري**
-
-*Network Engineer | مهندس شبكات*
+**Network Engineer | مهندس شبكات**
