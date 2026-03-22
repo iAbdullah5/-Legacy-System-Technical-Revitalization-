@@ -2,7 +2,7 @@
 
 ### Overview | نظرة عامة
 This project documents the transformation of a legacy laptop from Windows 7 to a professional Kali Linux environment dedicated to network engineering.
-يوثق هذا المشروع عملية تحويل حاسوب محمول قديم من نظام Windows 7 إلى بيئة عمل احترافية بنظام Kali Linux مخصصة لهندسة الشبكات.
+* يوثق هذا المشروع عملية تحويل حاسوب محمول قديم من نظام Windows 7 إلى بيئة عمل احترافية بنظام Kali Linux مخصصة لهندسة الشبكات.
 
 ---
 
@@ -19,7 +19,8 @@ This project documents the transformation of a legacy laptop from Windows 7 to a
 The system encountered a "Black Screen" issue during boot due to legacy graphics driver incompatibility with the modern kernel.
 * واجه النظام صعوبة في تحميل الواجهة الرسومية (الشاشة السوداء) بسبب عدم توافق تعريفات كرت الشاشة القديم مع النواة الحديثة.
 
-* **Solution | الحل:** Modified the GRUB bootloader by adding the `nomodeset` parameter to ensure GUI stability.
+* **Solution | الحل:**
+* Modified the GRUB bootloader by adding the `nomodeset` parameter to ensure GUI stability.
 
 * تم تعديل محمل الإقلاع (GRUB) وإضافة معامل `nomodeset` لضمان استقرار واجهة المستخدم.
 
@@ -34,7 +35,8 @@ Transitioned from using the Root account to creating a dedicated **User** accoun
 Resolved local hostname resolution conflicts to improve command execution speed and system stability.
 * حل مشكلة التعارض في تعريف اسم الجهاز المحلي لتسريع تنفيذ الأوامر البرمجية وضمان استقرار النظام.
 
-* **Solution | الحل:** Edited local configuration files to map the hostname to internal loopback addresses correctly.
+* **Solution | الحل:**
+* Edited local configuration files to map the hostname to internal loopback addresses correctly.
 * تعديل ملفات التكوين المحلية لربط اسم الجهاز بالعناوين الداخلية بشكل صحيح.
 
 ---
