@@ -17,9 +17,10 @@ This project documents the transformation of a legacy laptop from Windows 7 to a
 
 #### 1. Graphical Boot Issue | مشكلة الإقلاع الرسومي
 The system encountered a "Black Screen" issue during boot due to legacy graphics driver incompatibility with the modern kernel.
-واجه النظام صعوبة في تحميل الواجهة الرسومية (الشاشة السوداء) بسبب عدم توافق تعريفات كرت الشاشة القديم مع النواة الحديثة.
+* **واجه النظام صعوبة في تحميل الواجهة الرسومية (الشاشة السوداء) بسبب عدم توافق تعريفات كرت الشاشة القديم مع النواة الحديثة.
 
 * **Solution | الحل:** Modified the GRUB bootloader by adding the `nomodeset` parameter to ensure GUI stability.
+
 تم تعديل محمل الإقلاع (GRUB) وإضافة معامل `nomodeset` لضمان استقرار واجهة المستخدم.
 
 #### 2. User Management & Security | إدارة المستخدمين والأمان
